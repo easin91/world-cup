@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* google fonts */
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header style starts */
+.header {
+    background-color: #161616;
+    margin: 50px 140px;
+    border-radius: 30px;
+    display: flex;
+
+}
+
+.header:hover .watch-live {
+    background-color: #38353a;
+    font-size: 22px;
+    transition: all 1.5s;
+
+}
+
+.header-txt {
+    margin: 100px 20px 100px 50px;
+}
+
+.header-txt h1 {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.header-txt p {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.watch-live a,
+i {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.watch-live {
+    display: flex;
+    padding: 10px 20px;
+    margin-top: 20px;
+    gap: 10px;
+    background: #DD0000;
+    border-radius: 5px;
+    width: 180px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.header-banner {
+    padding: 0px 50px 0px 0px;
+    margin: 30px 100px 0px 0px;
+
+}
+
+.header-banner img {
+    height: 100%;
+
+    padding: 10px 120px 0px 0px;
+}
+
+/* header styles end */
+
+/* body styles start */
+.main {
+    margin: 120px 20px 10px 140px;
+    display: flex;
+}
+
+.sidebar {
+    background: #161616;
+    border-radius: 10px;
+    width: 270px;
+    height: 312px;
+    /* left: 140px; */
+}
+
+.btn {
+
+    margin-bottom: 50px;
+    /* margin: 50px 0px 50px 10px; */
+    /* margin-top: 40px;
+    margin-left: 10px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.btn a {
+    font-size: 30px;
+    text-align: center;
+
+    width: 230px;
+    height: 64px;
+    margin: 20px;
+    /* justify-content: center; */
+    padding: 20px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 30px; */
+    color: #161616;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.sidebar .page {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
+.blog-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog-info {
+    width: 230px;
+    height: 330px;
+
+    /* margin: 0px 10px 10px 10px; */
+}
+
+.blog {
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.thumbnail img {
+    width: 230px;
+
+
+}
+
+.button a {
+    text-decoration: none;
+    width: 80px;
+    /* height: 24px; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+    margin: 15px 10px;
+    border: 2px solid #161616;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.button,
+.text {
+    margin: 10px;
+}
+
+.icon img {
+    margin-top: 0px;
+    margin-left: 10px;
+    padding-right: 20px;
+}
+
+.icon p {
+    font-size: 20px;
+}
+
+/* body styles end */
+/* footer style starts */
+.footer {
+    background: #161616;
+
+}
+
+.footer h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 40px;
+}
+
+.footer hr {
+    background-color: #B9B9B9;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+    padding-bottom: 15px;
+
+}
+
+.btn-footer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 28px;
+}
+
+/* footer style end  */
+/* css for match page starts */
+.match-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 100px;
+}
+
+.thumbnail-germany img {
+    width: 100%;
+}
+
+.thumbnail-flag img {
+    width: 100%;
+}
+
+.img {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 40px 20px;
+    width: 250px;
+}
+
+.match-blog {
+    border: 2px solid #EBEBEB;
+    border-radius: 8px;
+    height: 270px;
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.match-text h3 {
+    text-align: center;
+}
+
+.time p {
+    text-align: center;
+}
+
+/* match page css end */
+
+/* css responsive for mobile starts */
+
+@media screen and (max-width: 576px) {
+    .header-txt h1 {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 24px;
+    }
+
+    .header-txt p {
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        background-color: #ffff;
+    }
+
+    .btn a {
+        padding: 10px 20px;
+        border: 2px solid #EBEBEB;
+        border-radius: 8px;
+    }
+
+    .icon {
+        display: flex;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        margin-bottom: 30px;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .btn-footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* css responsive for mobile ends */
+
+/* css responsive for tab starts */
+@media screen and (min-width: 577px) and (max-width: 700px) {
+    .header {
+        width: 700px;
+        background-color: #161616;
+        margin: 0px 0px;
+        border-radius: 30px;
+        display: flex;
+    }
+
+    .header-txt {
+        margin: 100px 20px 100px 20px;
+    }
+
+    .header-txt h1 {
+        width: 350px;
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+    .header-txt p {
+        width: 350px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .main {
+        margin: 120px 20px 10px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        flex-direction: row;
+    }
+
+    .btn a {
+        border: 2px solid #EBEBEB;
+        border-radius: 8px;
+        width: 100%;
+        padding: 0px 20px;
+        /* height: 100%; */
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 150px;
+        background-color: #FFFFFF;
+    }
+
+    .gallery {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog {
+        height: 360px;
+    }
+
+    .thumbnail img {
+        width: 300px;
+    }
+
+    .icon {
+        display: flex;
+    }
+
+
+}
+
+/* css responsive for tab ends */
